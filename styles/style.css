@@ -60,15 +60,113 @@
 }
 .box1 {
     width: 100%;
-    height:480px;
+    height: 480px;
+    position: absolute;
 }
 
 .image1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: bottom;
+
     
     }
+
+.box1-div {
+    position: absolute; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    
+
+}
+
+.box1-div h1 {
+    width: 687px;
+    height: 116px;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 700;        
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: 0.07em;  
+    color: #FFFFFF;
+}
+
+.box1-div {
+    position: absolute; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    
+
+}
+
+.box1-div h1 {
+    width: 687px;
+    height: 116px;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 700;        
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: 0.07em;  
+    color: #FFFFFF;
+}
+
+.box1-div p { 
+    width: 691px;
+    height: 24px;
+    font-weight: 400;
+    font-family: normal;
+    font-size: 13px;
+    margin-top: 0;
+    line-height: 100%;
+    letter-spacing: 0.07em;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+              
+    
+
+
+.discover {
+    width: 250px;
+    height: 66px;
+    background-color: #FF5403;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    line-height: 100%;
+    margin-top: 50px;
+
+}
+
+
+
+              
+    
+
+
+.discover {
+    width: 250px;
+    height: 66px;
+    background-color: #FF5403;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    line-height: 100%;
+    margin-top: 50px;
+
+}
 
 
 
