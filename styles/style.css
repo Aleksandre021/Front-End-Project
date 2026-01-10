@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1512px;
+    max-width: 1512px;
     height: 100px;
     
     
@@ -60,8 +60,9 @@
 }
 .box1 {
     width: 100%;
+   
     height: 480px;
-    position: absolute;
+    position: relative;
 }
 
 .image1 {
@@ -94,15 +95,7 @@
     color: #FFFFFF;
 }
 
-.box1-div {
-    position: absolute; 
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    text-align: center;
-    
 
-}
 
 .box1-div h1 {
     width: 687px;
@@ -148,25 +141,370 @@
 }
 
 
+.box2 {
+  width: 1138px;
+  height: 192px;
+  background-color: black;
+
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+.text-div h1 {
+
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 5%;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    text-align: center;       
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.text-div p {
+    
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    text-align: center; 
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 5%;
+    text-align: center;
+    color: #626262;
+    ;
+
+    
+}
+
+.section2 {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+.row img {
+    width: 50%;
+    height: 280px;
+    
+}
+
+
+.section-btn {
+    margin-top: 50px;
+}
+
+
+.box3 {
+    width: 100%;
+    
+    height: 600px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+.image2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+
+    
+    }
+.event-box {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+    background-color: #fff;
+    width: 500px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    text-align: left;
+}
+
+
+.upcoming-event {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #FF5403;
+}
+
+.destination {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #041562;
+}
+
+.event-paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #626262;
+}
+
+.event-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #626262;
+}
+
+.btn3 {
+    width: 198px;
+    height: 52px;
+    color: white;
+    background-color: #FF5403;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+
+
+
+.box4-title h1 {
+
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 5%;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    text-align: center;       
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #041562;
+}
+
+.box4-title p {
+    
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    text-align: center; 
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 5%;
+    text-align: center;
+    color: #626262;
+    ;
+
+    
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 40px auto;
+
+  
+ 
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.stars {
+    color: yellow;
+    font-size: 25px;
+}
+.box h1 {
+    width: 277px;
+    height: 29px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 5;
+    text-align: left;
+
+
+}
+.stars span {
+    font-family: Inter;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 170%;
+    letter-spacing: 2;
+    color: black;
+
+}
+
+.box p {
+    width: 160px;
+    height: 31px;
+    font-family: Inter;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 18px;
+    color: #626262;
+    line-height: 170%;
+    letter-spacing: 2;
+
+
+}
+
+.section5 {
+    max-width: 1550px;
+    background-color: #041562;
+    height: 600px;
+
+}
+
+.section5-title {
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+
+.section5 h1 {
+    color: white;
+    width: 274px;
+    height: 44px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 36px;
+    margin-top: 100px;
+    margin-left: 70px;
+    line-height: 100%;
+    letter-spacing: 2;
+
+
+
+
+}
+
+.arrow {
+    display: flex;
+    
+}
+
+.r-arrow {
+    width: 60px;
+    height: 60px;
+    background-color:   #2D93EA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+    margin-top: 100px;
+    
+}
+.l-arrow {
+    width: 60px;
+    height: 60px;
+    background-color:   #2D93EA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+    margin-top: 100px;
+    
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes {
+  width: 350px;
+  height: 260px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 80px;
+  background-color: #243a8f;
+  padding: 24px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+  
+
+.boxes p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  color: #e6e9ff;
+}
+
+
+.section6 {
+    height: 50px;
+}
+
+
 
               
     
 
 
-.discover {
-    width: 250px;
-    height: 66px;
-    background-color: #FF5403;
-    border: none;
-    color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 0%;
-    line-height: 100%;
-    margin-top: 50px;
 
-}
 
 
 
