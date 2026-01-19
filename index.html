@@ -12,68 +12,90 @@
     <title>TravelBuddy</title>
 </head>
 <body>
-    <header>
+   <header class="header">
         <div class="header-flex">
 
             <div class="logo">
-                <img src="images/Vector (1).svg" alt="logo" class="logo-img">
-
-                <img src="images/Vector (2).svg" alt="logo-text" class="logo-txt">
-            </div>
+                 <img src="images/Vector (1).svg" alt="TravelBuddy logo icon">
+                 <img src="images/Vector (2).svg" alt="TravelBuddy logo text">
+                               </div>
 
             <nav class="navigation">
-                <ul class="ul-nav">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Packeges</a></li>
-                    <li><a href="">Places</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-
+              <ul class="ul-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
             </nav>
 
-            <div class="button-div">
-                <button class="button1">Book Now</button>
-            </div>
-            
+            <button class="button1"><a href="login.html" class="login">Login</a></button>
 
-        </div>
-
-
-    </header>
-    <main>
-        <section>
-            <div class="box1">
-                <img src="images/banner_bg 1.png" class="image1" alt="beach">
-
-            </div>
-
-            <div class="box1-div">
-                <h1>Travel  Body</h1>
-
-                <p>Let’s start your journey with us, your dream will come true</p>
-                
-                <button class="discover">Discover</button>
-            </div>
-
-            <div class="box2">
-
-            </div>
-                
-
+            <div class="burger">
+                   <i class="fa-solid fa-bars"></i>
     
-           
+                           </div>
+            
+                </div>
+        
+            <div id="cookie-banner" class="cookie-banner">
+                    <p>This website uses cookies to improve your experience.</p>
+                    
+                    <button id="acceptCookies">Accept</button>
+                    
+                    <button id="denyCookies" class="deny">Deny</button>
+                       </div>
 
 
+       </header>
 
+    <main>
+        <button id="scrollToTop">Top</button>
 
-       
+        
+        <section class="section1">
 
+           <div class="box1">
+              <img src="images/banner_bg 1.png" class="image1" alt="Beach">
 
+              <div class="box1-div">
+                  <h1>Travel Buddy</h1>
 
+                  <p>Let’s start your journey with us, your dream will come true</p>
+
+                  <button class="discover">Discover</button>
                 
-         
+                </div>
+                    </div>
+           <div class="box2">
+               <div class="form">
+    
+                    <select id="placeSelect">
+                         <option>Choose Place</option>
+                    </select>
+
+                    <input type="date" id="date-input"/>
+
+                    <select id="person-input">
+                    <option>Person</option>
+                    <option>1 Person</option>
+                    <option>2 Persons</option>
+                    </select>
+
+                    <button id="searchBtn">Search</button>
+                     
+                    <div id="result">
+
+                    </div>
+
+                        </div>
+                            </div>
+
+
         </section>
+                
+        
         <section class="section2">
                     <div class="text-div">
                         <h1>Top Places to visit</h1>
@@ -82,14 +104,16 @@
 
                     <div class="photos">
                         <div class="row">
-                            <img src="/Front-End-Project/images/img-box-02.png" alt="place 1">
-                            <img src="/Front-End-Project/images/img-box-02.png" alt="place 1">
+                            <img src="images/img-box-01.png" alt="place 1">
+                            <img src="images/img-box-02.png" alt="place 2">
+                            
+                            
                            
                         </div>
 
                         <div class="row">
-                            <img src="/Front-End-Project/images/img-box-02.png" alt="place 1">
-                            <img src="/Front-End-Project/images/img-box-02.png" alt="place 2">
+                            <img src="images/img-box-03.png" alt="place 1">
+                            <img src="images/img-box-04.png" alt="place 2">
                                 
                         </div>
                     </div>
@@ -100,7 +124,7 @@
             <section class="section3">
 
                 <div class="box3">
-                    <img src="/Front-End-Project/images/event_bg 1.jpg" alt="beach" class="image2">
+                    <img src="images/event_bg 1.jpg" alt="beach" class="image2">
 
 
 
@@ -154,7 +178,7 @@
                 <div class="container">
 
                     <div class="box">
-                        <img src="/Front-End-Project/images/img-card-hotel-03.jpg" alt="">
+                        <img src="images/img-card-hotel-03.jpg" alt="">
 
                         <h1>Hotel Grand Indonesia</h1>
 
@@ -171,7 +195,7 @@
 
 
                     <div class="box">
-                        <img src="/Front-End-Project/images/img-card-hotel-03.jpg" alt="">
+                        <img src="images/img-card-hotel-03.png" alt="">
 
                         <h1>Hotel Grand Indonesia</h1>
 
@@ -188,7 +212,7 @@
 
 
                     <div class="box">
-                        <img src="/Front-End-Project/images/img-card-hotel-03.jpg" alt="">
+                        <img src="images/img-card-hotel-01.png" alt="">
 
                         <h1>Hotel Grand Indonesia</h1>
 
@@ -247,13 +271,27 @@
                         <p id="first-p">Waters make fish every without firmament saw had. Morning air subdue. Our, air very one. Whales grass is fish whales winged.</p>
                           
                         <p>-Reza mukhti</p>
-                    </div>
+                     </div>
 
                     <div class="boxes">
+                        <div class="stars">
+                                ★★★★★ 
+                                </div>
+                        <p id="first-p">Waters make fish every without firmament saw had. Morning air subdue. Our, air very one. Whales grass is fish whales winged.</p>
+                          
+                        <p>-Reza mukhti</p>
+                      </div>
                         
-                    </div>
+                    
 
                     <div class="boxes">
+                        <div class="stars">
+                                ★★★★★ 
+                                </div>
+                        <p id="first-p">Waters make fish every without firmament saw had. Morning air subdue. Our, air very one. Whales grass is fish whales winged.</p>
+                          
+                        <p>-Reza mukhti</p>
+                
                         
                     </div>
 
@@ -274,7 +312,7 @@
                 <div class="container2">
 
                     <div class="box6">
-                        <img src="/Front-End-Project/images/img-card-tsp-03.png" alt="">
+                        <img src="images/img-card-tsp-01.png" alt="">
 
                         <h1>Transportation</h1>
 
@@ -289,7 +327,7 @@
 
 
                     <div class="box6">
-                        <img src="/Front-End-Project/images/img-card-hotel-03.jpg" alt="">
+                        <img src="images/img-card-tsp-02.png" alt="">
 
                         <h1>Guidence</h1>
 
@@ -304,7 +342,7 @@
 
 
                     <div class="box6">
-                        <img src="/Front-End-Project/images/img-card-hotel-03.jpg" alt="">
+                        <img src="images/img-card-tsp-03.png" alt="">
 
                         <h1>Accomodation</h1>
 
@@ -329,12 +367,12 @@
 
     
     <div class="footer-logo">
-      <img src="/Front-End-Project/images/Vector (1).svg" alt="Travel Buddy Logo">
+      <img src="images/Vector (1).svg" alt="Travel Buddy Logo">
       <h2>Travel Buddy</h2>
     </div>
 
     
-    <div class="footer-column">
+    <div class="footer-descr">
       <h3>Discover Destination</h3>
       <ul>
         <li>Bali</li>
@@ -347,16 +385,14 @@
     </div>
 
     
-    <div class="footer-column">
+    <div class="footer-descr">
       <h3>Contact Us</h3>
       <p>24 Shipley St. Arvada, CO 80003</p>
       <p>09378493810</p>
       <p>TravelBuddy@gmail.com</p>
 
-      <h4>Social Media</h4>
-      <div class="social-icons">
-        
-      </div>
+      
+      
     </div>
 
   </div>
@@ -368,6 +404,6 @@
     
 
     
-    
+   <script src="script.js"></script> 
 </body>
 </html>
